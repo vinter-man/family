@@ -7,7 +7,7 @@ import json
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = '/tmp'
 
-REQUIRED_FIELDS = ['id', 'name', 'father-id', 'mother-id']
+REQUIRED_FIELDS = ['id', 'name']
 
 def validate_excel(dataframe):
     errors = []
@@ -18,8 +18,6 @@ def validate_excel(dataframe):
     for index, row in dataframe.iterrows():
         if pd.isnull(row['id']) or pd.isnull(row['name']):
             errors.append(f"String {index+1}: ID and name are required")
-        if pd.isnull(row['father-id']) and pd.isnull(row['mother-id']):
-            errors.append(f"String {index+1}: At least one parent must be specified")
     
     return errors
 
