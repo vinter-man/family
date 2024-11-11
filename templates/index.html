@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Family Tree</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <div class="upload-section">
+      <h1>Upload Excel file</h1>
+      <input type="file" id="fileInput" />
+      <button onclick="uploadFile()">Upload</button>
+    </div>
+    <div id="tree-container" style="display: none">
+      <canvas id="treeCanvas"></canvas>
+    </div>
+    <script src="/static/js/script.js"></script>
+  </body>
+</html>
