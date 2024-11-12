@@ -52,11 +52,11 @@ families:
     children: [Белый Иван Григорьевич]
     families:
       - parents: [Белый Иван Григорьевич, Белая Ольга]
-        children: [Поленовская Неонила Ивановна]
+        children: [Поленовская Неонила Ивановна, Вера Ивановна, Надежда Ивановна]
 
   - house: Харченко
     parents: [Харченко Василий, Харченко Ксения Евстафьевна]
-    children: [Лысенко Валентина Васильевна]
+    children: [Лысенко Валентина Васильевна, Лидия Васильевна]
 
   - house: Гребешковы
     parents: [Гребешков Евстафий]
@@ -68,6 +68,15 @@ families:
 
   - parents: [Кирил]
     children: [Димитрова Агафия Кириллова]
+
+  - parents: []
+    children: [Белая Ольга, Дуня]
+
+  - parents: [Вера Ивановна]
+    children: [Анатолий]
+
+  - parents: [Надежда Ивановна]
+    children: [Лена]
 
   - parents: [Адам]
     children: [Винтерман Анна Адамовна]
@@ -189,8 +198,8 @@ people:
     fullname: (1912) Спасское, Российская Империя
     links: [people\Поленовский Николай Лаврентьевич.md]
   Поленовская Неонила Ивановна:
-    fullname: (Белая)(1917)
-    #links: [people\Поленовская Неонила Ивановна.md]
+    fullname: (Белая)(1917-1973)
+    links: [people\Поленовская Неонила Ивановна.md]
   Лысенко Алена:
     #fullname:
     #links: [people\Лысенко Алена.md]
@@ -211,10 +220,10 @@ people:
     #links: [people\Александр.md]
   Белый Иван Григорьевич:
     #fullname:
-    #links: [people\Белый Иван Григорьевич.md]
+    links: [people\Белый Иван Григорьевич.md]
   Белая Ольга:
     #fullname:
-    #links: [people\Белая Ольга.md]
+    links: [people\Белая Ольга.md]
   Белый Григорий:
     #fullname:
     #links: [people\Белый Григорий.md]
@@ -275,3 +284,21 @@ people:
   Лысенко Захар:
     #fullname:
     #links: [people\Лысенко Захар.md]
+  Лидия Васильевна:
+    #fullname:
+    #links: [people\Лидия Васильевна.md]
+  Дуня:
+    #fullname:
+    links: [people\Дуня.md]
+  Вера Ивановна:
+    fullname: (Белая)
+    #links: [people\Вера Ивановна.md]
+  Анатолий:
+    #fullname:
+    links: [people\Анатолий.md]
+  Надежда Ивановна:
+    #fullname:
+    #links: [people\Надежда Ивановна.md]
+  Лена:
+    #fullname:
+    links: [people\Лена.md]
