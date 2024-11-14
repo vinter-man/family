@@ -16,7 +16,7 @@ Configure `family.yml` according [guide](https://github.com/rstacruz/kingraph/bl
 Use it for creating family.html with family tree
 
 ```
-kingraph family.yml | Out-File -FilePath "family.html" -Encoding oem
+kingraph family.yml -s ALLOW_MEMORY_GROWTH=1 | Out-File -FilePath "family.html" -Encoding oem
 ```
 
 > Possible Encoding: unknown,string,unicode,bigendianunicode,utf8,utf7,utf32,ascii,default,oem
