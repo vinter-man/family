@@ -28,3 +28,14 @@ Install [markdown-viewer](https://github.com/simov/markdown-viewer) for browser
 Open `index.html` file in browser
 
 Enjoy
+
+on server
+
+```
+сd my-site
+git pull
+docker-compose down -v
+docker-compose build --no-cache
+docker-compose up -d
+# http://95.216.167.149:821/
+```
